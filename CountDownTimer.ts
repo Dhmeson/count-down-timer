@@ -20,7 +20,7 @@ interface SetLocalDate {
 }
 type FormatOrigin = 'BR' | 'USA'
 //criar um registro onde pegara data local e o periodo que deve ser gerado uma nova data o retorno devera ser em timestamp
-export class ClockTime {
+export class CountDownTimer {
 	register(period: SetLocalDate) {
 		const timestampEnd = this.setValues(period)
 		return timestampEnd

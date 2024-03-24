@@ -1,7 +1,7 @@
 {
-  "name": "clock-count",
-  "version": "1.0.0",
-  "description": "",
+  "name": "countdown-event",
+  "version": "1.0.2",
+  "description": "This is a countdown timer developed in TypeScript/JavaScript. It counts down the time remaining until a specified moment, provided as a timestamp, and continuously updates to display the remaining time in days, hours, minutes, and seconds. When the target time is reached, the timer stops, and a message indicating that the target time has been reached is displayed.",
   "main": "main.ts",
   "scripts": {
     "build": "tsc",
@@ -11,6 +11,7 @@
   },
   "author": "dhmeson",
   "license": "MIT",
+  "repository": {"url": "https://github.com/Dhmeson/count-down-timer","directory": "https://github.com/Dhmeson/count-down-timer"},
   "devDependencies": {
     "@types/jest": "^29.5.12",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
